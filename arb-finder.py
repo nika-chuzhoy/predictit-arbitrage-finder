@@ -51,7 +51,6 @@ def gen_min_profit(price_array, counts_array):
 """
 Finds the ideal ratio of no shares to purchase given the prices of the no shares.
 """
-
 def get_ratio(prices):
     equations = []
     vals = []
@@ -90,7 +89,6 @@ def get_ratio(prices):
 Finds the smallest possible set of no shares one can purchase and still make a profit,
 given the prices of the no shares.
 """
-
 def get_share_quants(prices):
     ratio = get_ratio(prices)
     for i in range(1,850):
